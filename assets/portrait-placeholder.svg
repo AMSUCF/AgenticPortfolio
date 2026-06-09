@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="Portrait placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#B7E59A"/>
+      <stop offset="1" stop-color="#A2D2FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg)"/>
+  <!-- confetti -->
+  <circle cx="60" cy="70" r="10" fill="#FFD93D" stroke="#3b7a2e" stroke-width="3"/>
+  <polygon points="330,60 345,90 315,90" fill="#FF6B6B" stroke="#3b7a2e" stroke-width="3"/>
+  <path d="M40 320 q15 -20 30 0 t30 0" fill="none" stroke="#3b7a2e" stroke-width="3"/>
+  <!-- simple cute avatar -->
+  <circle cx="200" cy="180" r="90" fill="#FFFDF4" stroke="#3b7a2e" stroke-width="5"/>
+  <circle cx="170" cy="170" r="9" fill="#3b7a2e"/>
+  <circle cx="230" cy="170" r="9" fill="#3b7a2e"/>
+  <circle cx="160" cy="195" r="9" fill="#FF6B6B" opacity="0.6"/>
+  <circle cx="240" cy="195" r="9" fill="#FF6B6B" opacity="0.6"/>
+  <path d="M175 205 q25 25 50 0" fill="none" stroke="#3b7a2e" stroke-width="5" stroke-linecap="round"/>
+  <text x="200" y="340" text-anchor="middle" font-family="'Baloo 2', sans-serif" font-size="26" fill="#3b7a2e" font-weight="700">add a photo!</text>
+</svg>

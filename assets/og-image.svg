@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#A2D2FF"/>
+      <stop offset="0.6" stop-color="#c8ecb0"/>
+      <stop offset="1" stop-color="#B7E59A"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#sky)"/>
+  <!-- sun -->
+  <circle cx="1000" cy="140" r="80" fill="#FFD93D" stroke="#3b7a2e" stroke-width="6"/>
+  <!-- confetti -->
+  <polygon points="120,120 145,170 95,170" fill="#FF6B6B" stroke="#3b7a2e" stroke-width="5"/>
+  <circle cx="240" cy="90" r="16" fill="#FFD93D" stroke="#3b7a2e" stroke-width="5"/>
+  <polygon points="160,520 175,490 190,520 205,490 220,520" fill="none" stroke="#3b7a2e" stroke-width="5"/>
+  <!-- froggy -->
+  <ellipse cx="600" cy="470" rx="120" ry="95" fill="#8BD450" stroke="#3b7a2e" stroke-width="6"/>
+  <circle cx="555" cy="375" r="42" fill="#8BD450" stroke="#3b7a2e" stroke-width="6"/>
+  <circle cx="645" cy="375" r="42" fill="#8BD450" stroke="#3b7a2e" stroke-width="6"/>
+  <circle cx="555" cy="375" r="20" fill="#fff" stroke="#3b7a2e" stroke-width="4"/>
+  <circle cx="645" cy="375" r="20" fill="#fff" stroke="#3b7a2e" stroke-width="4"/>
+  <circle cx="560" cy="378" r="9" fill="#3b7a2e"/>
+  <circle cx="650" cy="378" r="9" fill="#3b7a2e"/>
+  <path d="M555 470 q45 40 90 0" fill="none" stroke="#3b7a2e" stroke-width="6" stroke-linecap="round"/>
+  <!-- title -->
+  <text x="600" y="160" text-anchor="middle" font-family="'Baloo 2', sans-serif" font-size="84" font-weight="800" fill="#ffffff" stroke="#3b7a2e" stroke-width="3">Anastasia Salter</text>
+  <text x="600" y="220" text-anchor="middle" font-family="'Quicksand', sans-serif" font-size="34" font-weight="700" fill="#3b7a2e">digital humanities · game studies</text>
+</svg>

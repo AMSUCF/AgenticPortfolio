@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anastasia Salter — Digital Humanities &amp; Game Studies</title>
+  <meta name="description" content="Anastasia Salter — Professor of English at the University of Central Florida. Digital humanities, electronic literature, and game studies scholar." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Anastasia Salter — Digital Humanities & Game Studies" />
+  <meta property="og:description" content="Professor of English at UCF. Electronic literature, game studies, and critical making." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/og-image.svg" />
+
+  <!-- Favicon (cute froggy blob) -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Fredoka:wght@500;600;700&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <!-- ==================== VERIFY BANNER ==================== -->
+  <!-- TODO: verify — biographical details, roles, publications, and contact links below
+       were researched from public sources and should be confirmed/corrected before launch. -->
+  <div class="verify-banner" id="verifyBanner" role="status">
+    <span>🐣 Draft content — please verify bio, publications &amp; links before publishing.</span>
+    <button type="button" class="verify-banner__close" aria-label="Dismiss notice" id="verifyClose">✕</button>
+  </div>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ==================== NAVBAR ==================== -->
+  <header class="navbar" id="navbar">
+    <div class="navbar__inner">
+      <a href="#landing" class="navbar__brand">
+        <span class="navbar__blob" aria-hidden="true"></span>
+        <span class="navbar__name">Anastasia&nbsp;Salter</span>
+      </a>
+
+      <button class="navbar__toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Toggle navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="navbar__menu" id="navMenu" aria-label="Primary">
+        <a href="#about" class="navbar__link">About</a>
+        <a href="#publications" class="navbar__link">Books</a>
+        <a href="#projects" class="navbar__link">Projects</a>
+        <a href="#contact" class="navbar__link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ==================== LANDING (Flash-style cartoon) ==================== -->
+    <section id="landing" class="landing" aria-label="Welcome">
+      <!-- Decorative animated canvas mounts here -->
+      <div class="landing__canvas" id="landingCanvas" aria-hidden="true"></div>
+
+      <!-- Real accessible content layered above the canvas -->
+      <div class="landing__overlay">
+        <p class="landing__eyebrow">✨ welcome to the pond ✨</p>
+        <h1 class="landing__title">Anastasia&nbsp;Salter</h1>
+        <p class="landing__tagline">
+          Digital humanities &amp; game studies scholar — making, breaking,
+          and playing with interactive stories.
+        </p>
+        <div class="landing__cta">
+          <a href="#about" class="btn btn--primary">Meet me &raquo;</a>
+          <a href="#publications" class="btn btn--ghost">See the books</a>
+        </div>
+      </div>
+
+      <a href="#about" class="landing__scroll" aria-label="Scroll to content">
+        <span aria-hidden="true">▾</span>
+      </a>
+    </section>
+
+    <!-- ==================== ABOUT ==================== -->
+    <section id="about" class="section section--about">
+      <div class="section__bg" id="aboutCanvas" aria-hidden="true"></div>
+      <div class="container">
+        <h2 class="section__title">About <span class="wiggle">🐸</span></h2>
+        <div class="about__grid">
+          <div class="about__photo">
+            <div class="about__photo-frame">
+              <!-- TODO: verify — replace with a real portrait in assets/ -->
+              <img src="assets/portrait-placeholder.svg" alt="Portrait of Anastasia Salter" />
+            </div>
+          </div>
+          <div class="about__body">
+            <p>
+              <strong>Anastasia Salter</strong> is a Professor of English at the
+              University of Central Florida, where she directs the Graduate Programs
+              and the PhD in Texts &amp; Technology in the College of Arts &amp; Humanities.
+              She is President of the Electronic Literature Organization and serves as
+              <em>Inventio</em> editor for <em>Kairos: A Journal of Rhetoric, Technology,
+              and Pedagogy</em>.
+            </p>
+            <p>
+              Her work explores the future of storytelling — across electronic literature,
+              video games, Twine and hypertext, and the messy frontier of generative AI and
+              critical making — with a recurring focus on gender and marginalized voices in
+              technology. She is the author of ten books on digital culture and platforms.
+            </p>
+
+            <h3 class="about__subhead">Research interests</h3>
+            <ul class="badge-list" id="interestList"><!-- rendered from data.js --></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== PUBLICATIONS ==================== -->
+    <section id="publications" class="section section--pubs">
+      <div class="section__bg" id="pubsCanvas" aria-hidden="true"></div>
+      <div class="container">
+        <h2 class="section__title">Books <span class="wiggle">📚</span></h2>
+        <p class="section__lead">Ten books on digital culture, games, and interactive storytelling.</p>
+
+        <div class="filters" id="pubFilters" role="group" aria-label="Filter publications">
+          <!-- filter pills rendered from data.js -->
+        </div>
+
+        <div class="card-grid" id="pubGrid"><!-- rendered from data.js --></div>
+      </div>
+    </section>
+
+    <!-- ==================== PROJECTS / GAMES / TEACHING ==================== -->
+    <section id="projects" class="section section--projects">
+      <div class="section__bg" id="projectsCanvas" aria-hidden="true"></div>
+      <div class="container">
+        <h2 class="section__title">Projects, Games &amp; Teaching <span class="wiggle">🎮</span></h2>
+        <p class="section__lead">Selected creative-critical work, communities, and courses.</p>
+        <div class="card-grid" id="projectGrid"><!-- rendered from data.js --></div>
+      </div>
+    </section>
+
+    <!-- ==================== CONTACT ==================== -->
+    <section id="contact" class="section section--contact">
+      <div class="container container--narrow">
+        <h2 class="section__title">Say hi <span class="wiggle">💌</span></h2>
+        <p class="section__lead">Find me around the web. <!-- TODO: verify links --></p>
+        <ul class="links-list" id="linkList"><!-- rendered from data.js --></ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Made with P5.js, pastel greens &amp; yolky yellows. <span aria-hidden="true">🐸🍳</span></p>
+      <p class="footer__fine">© <span id="year"></span> Anastasia Salter. A Flash-style fan-tribute, no trademarks affiliated.</p>
+    </div>
+  </footer>
+
+  <!-- P5.js via CDN (no build step) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.min.js"></script>
+  <!-- App scripts -->
+  <script src="js/data.js"></script>
+  <script src="js/sketches/decor.js"></script>
+  <script src="js/sketches/landing.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
