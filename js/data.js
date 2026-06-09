@@ -85,3 +85,7 @@ const SITE = {
     { label: "Email", url: "mailto:anastasia@salter.example", icon: "✉️" },
   ],
 };
+
+// Expose on window so the render code in main.js can read it.
+// (A top-level `const` is NOT attached to window on its own.)
+window.SITE = SITE;
