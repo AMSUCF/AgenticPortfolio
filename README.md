@@ -58,6 +58,12 @@ the `<img src>` in `index.html`).
 
 ## 🚀 Deploy (GitHub Pages)
 
-1. Push to the repo.
-2. In **Settings → Pages → Build and deployment**, set **Source: GitHub Actions**.
-3. The workflow in `.github/workflows/deploy.yml` publishes the site on push.
+This is a plain static site, so it deploys with GitHub's built-in **"Deploy from a
+branch"** Pages pipeline — no custom workflow needed.
+
+1. In **Settings → Pages → Build and deployment**, set **Source: Deploy from a
+   branch** and pick the branch (root `/`).
+2. Push to that branch — GitHub builds and publishes automatically.
+
+A `.nojekyll` file is included so the files are served exactly as-is (no Jekyll
+processing).
